@@ -150,13 +150,6 @@ body {
   padding: 10px 25px;
   border-radius: 50px;
   background: #FFEB3B;
-  background: -moz-linear-gradient(45deg, #d4a800 0%, #FFEB3B 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #d4a800), color-stop(100%, #FFEB3B));
-  background: -webkit-linear-gradient(45deg, #d4a800 0%, #FFEB3B 100%);
-  background: -o-linear-gradient(45deg, #d4a800 0%, #FFEB3B 100%);
-  background: -ms-linear-gradient(45deg, #d4a800 0%, #FFEB3B 100%);
-  background: linear-gradient(45deg, #d4a800 0%, #FFEB3B 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4a800', endColorstr='#FFEB3B', GradientType=1 );
   -webkit-box-shadow: 2px 3px 10px -5px black;
   -moz-box-shadow: 2px 3px 10px -5px black;
   box-shadow: 2px 3px 10px -5px black;
@@ -166,15 +159,7 @@ body {
 .search-menu-btn a:hover {
   color: #000000;
   transition: all .3s;
-  background: #FFFFFF;
-  background: -moz-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #FFFFFF), color-stop(100%, #FFFFFF));
-  background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 100%);
-  background: -o-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 100%);
-  background: -ms-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 100%);
-  background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=1 );
-
+  background: #fffff;
 }
 
 .nav-top {
@@ -563,7 +548,6 @@ body {
       padding: .5rem 1rem;
       margin: 0;
       height: auto;
-      border: 1px solid #FFC107;
       vertical-align: middle;
       -webkit-appearance: none;
       font-size: 19px;
@@ -876,7 +860,6 @@ body {
   width: 100%;
   margin:0 auto;
   background:#FFC107;
-  border:1px solid #FFC107;
   text-align: center;
   font-size: 18px;
   display: block;
